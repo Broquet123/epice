@@ -1,0 +1,9 @@
+.menuPrinci {
+  float: left;
+}
+
+.menuPage {
+  display: block;
+  padding: 8px;
+  background-color: #dddddd;
+}
