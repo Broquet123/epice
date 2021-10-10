@@ -56,7 +56,8 @@ footer {
   color: white;
 }
 .reseaux {
-display:inline;
+  display:inline;
+  margin-top: 5px
 }
 
 .logo {
