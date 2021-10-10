@@ -1,59 +1,38 @@
-.menuPrinci {
-  background-color:  #333;
-  margin-bottom :100px;
-  padding: 14px 16px;
-  padding-left:0px;
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Epices - Jura</title>
+    <meta name="author" content="Niels Broquet">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="normalize.css">
+</head>
+<body>
+    <header>
+        <nav class ="menuPrinci">
+                <li><a href="#" class = "menuPage">Home</a></li>
+                <li><a href="#" class = "menuPage">About</a></li>
+                <li><a href="#" class = "menuPage">Product</a></li>          
+          </nav>
+    </header>
+    <main>
 
-}
+    </main>
+    <footer>
+    <nav>
+        <ul>
+          <li>Rejoignez-nous : </li>
+            <li class ="reseaux"><a href = "#"><img class="logo" src="logo.png" alt="Logo facebook"> </a></li>
+            <li class ="reseaux"><a href = "#"></a><img class="logo" src="logo1.png" alt="Logo instagram"></a></li>
+        </ul>
+    </nav>
+    </footer>
 
-.menuPage {
-  padding: 8px;
-  background-color: #dddddd;
-}
 
-.menuPage {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-  display: block;
-  color: white;
-display:inline;
-  padding: 14px 16px;
-  text-decoration: none;
-}
 
-.menuPrinci a:hover {
-  background-color: #111;
-}
+</body>
+</html>
 
-.menuPrinci a:active {
-  background-color: #04AA6D;
-}
 
-footer nav ul {
-  list-style-type: none;
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
-}
 
-footer {
-  text-align: center;
-  padding: 3px;
-  background-color: #333;
-  color: white;
-}
-.reseaux {
-display:inline;
-}
-
-.logo {
-  filter: grayscale(1);
-  margin-right: 30px;
-  height: 50px;
-}
