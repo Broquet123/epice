@@ -21,11 +21,11 @@ display:inline;
   text-decoration: none;
 }
 
-.menuPage a:hover {
+.menuPage:hover {
   background-color: #111;
 }
 
-.menuPage a:active {
+.menuPage:active {
   background-color: #04AA6D;
 }
 
