@@ -80,51 +80,59 @@ footer nav ul li a img:hover {
 Formulaire contact
 ***************************************************/
 
+input[type=text], select, textarea {
+  border: 1px solid #ccc;
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top :6px;
+  margin-bottom: 16px;
+}
+
 form {
-    padding: 20px;
-    box-shadow: 0 1px 2px rgba(0,0,0,0.2);
-    margin: 2em auto;
-    background-color: #f1f1f1;
-  }
+	padding: 20px;
+    border-radius: 5px;
+	background-color: #f2f2f2;
+}
 
-  form ul {
-    padding-left: 0;
-    margin: 0;
-  }
+form ul {
+	padding-left: 0;
+	margin: 0;
+}
 
-  form li {
-    list-style: none;
-    margin-bottom: 10px;
-  }
+form li {
+	list-style: none;
+	margin-bottom: 10px;
+}
 
-  form li:last-child {
-    margin: 0;
-  }
-  
-  label{
-    display: block;
-    margin-bottom: .5rem;
-  }
+label{
+	display: block;
+	margin-bottom: .5rem;
+}
 
-  input + label {
-    display: inline;
-  }
+input + label {
+	display: inline;
+}
 
-  input,
-  textarea {
-    border: none;
-    font-size: inherit;
-    color: inherit;
-  }
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 99%;
+  padding: 1em;
+}
 
-  input[type="text"],
-  input[type="email"],
-  input[type="password"],
-  textarea {
-    width: 100%;
-    padding: 1em;
-  }
+textarea {
+  min-height: 5em;
+}
 
-  textarea {
-    min-height: 10em;
-  }
+.btEnvoi {
+  background-color: #008B8B;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btEnvoi:hover{
+  background-color: #A9A9A9;
+}
