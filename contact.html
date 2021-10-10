@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
     <title>Epices - Jura</title>
     <meta name="author" content="Niels Broquet">
@@ -18,7 +18,25 @@
           </nav>
     </header>
     <main>
-
+        <form id = "form-rect" action="mailto:niels.broquet@icloud.com?subject=Fomulaire Mon javascript" name="envoi" method=POST enctype="text/plain">
+            <ul> 
+            
+                <li> <label for="1name">First name</label>
+                <input type="text" id="1name" name="1name" placeholder="Your first name.."> </li> 
+                
+                <li> <label for="name">Last name</label> 
+                <input type="text" id="name" name="name" placeholder="Your last name.."> </li>
+                
+                <li> <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" placeholder="Your e-mail.."> </li>
+                
+                <li> <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" rows="2" cols="20">Your question, your recommendation...</textarea> </li> 
+                
+                <li> <button type="reset">Réinitialiser</button> <button type="submit">Envoyer</button> </li> 
+                
+                </ul> 
+         </form> 
     </main>
     <footer>
     <nav>
