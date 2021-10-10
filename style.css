@@ -136,3 +136,28 @@ textarea {
 .btEnvoi:hover{
   background-color: #A9A9A9;
 }
+
+/************************************
+html
+****************************************/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+html {
+  font-family:'Roboto Slab', serif;
+}
+
+/************************************
+Product
+****************************************/
+
+.produit {
+  padding:10px 10px;
+  width:50%;
+  border-radius:10px;
+  box-shadow: 6px 6px 18px 0px rgb(0 0 0 / 30%);
+  }
+
+.produitImg {
+  border :solid red 2px;
+  padding : 80px 10px;
+  text-align:center
+}
