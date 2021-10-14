@@ -216,6 +216,71 @@ html {
 /************************************
 Product
 ****************************************/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,900&display=swap');
+
+.productTitle {
+  font-family: 'Poppins', sans-serif;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: block;
+  color: #cf1b1b;
+  font-size: 124px;
+  letter-spacing: 8px;
+  cursor: pointer;
+}
+
+.productTitle::before {
+  content: "Produits";
+  position: absolute;
+  color: transparent;
+  background-image: repeating-linear-gradient(
+    45deg,
+    transparent 0,
+    transparent 2px,
+    white 2px,
+    white 4px
+  );
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -ms-background-clip: text;
+  -o-background-clip: text;
+  top: 0px;
+  left: 0;
+  z-index: -1;
+  transition: 1s;
+}
+
+.productTitle::after {
+  content: "Produits";
+  position: absolute;
+  color: transparent;
+  background-image: repeating-linear-gradient(
+    135deg,
+    transparent 0,
+    transparent 2px,
+    white 2px,
+    white 4px
+  );
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -ms-background-clip: text;
+  -o-background-clip: text;
+  top: 0px;
+  left: 0px;
+  transition: 1s;
+}
+
+.productTitle:hover:before {
+  top: 10px;
+  left: 10px;
+}
+
+.productTitle:hover:after {
+  top: -10px;
+  left: -10px;
+} 
 
 .produit {
   font-family: 'Source Sans Pro', sans-serif;
@@ -421,3 +486,7 @@ span:before {
 svg {
   display: none;
 }
+
+/*****************************************************
+A propos
+*****************************************************/
