@@ -217,7 +217,7 @@ html {
 Product
 ****************************************/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,900&display=swap');
-.contactPage {
+.product {
   background-image: url(fondContact.jpg);
   background-size: auto 100vh;
   background-position: top;
