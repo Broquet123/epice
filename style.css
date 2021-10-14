@@ -60,7 +60,7 @@ footer nav ul {
 footer {
   text-align: center;
   padding: 3px;
-  background-color: #333;
+  background-color: transparent;
   color: white;
 }
 .reseaux {
@@ -89,7 +89,6 @@ body {
 }
 footer {
 	display : table-row;
-	height: 100px; /* à titre d'exemple */
 }
 /*************************************************
 Formulaire contact
