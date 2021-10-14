@@ -217,18 +217,22 @@ html {
 Product
 ****************************************/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,900&display=swap');
+.contactPage {
+  background-image: url(fondContact.jpg);
+  background-size: auto 100vh;
+  background-position: top;
+  
+}
 
 .productTitle {
   font-family: 'Poppins', sans-serif;
-  position: absolute;
-  left: 50%;
-  top: 50%;
   transform: translate(-50%, -50%);
   display: block;
   color: #cf1b1b;
   font-size: 124px;
   letter-spacing: 8px;
   cursor: pointer;
+  margin: 3% auto;
 }
 
 .productTitle::before {
