@@ -79,23 +79,17 @@ footer nav ul li a img:hover {
   transition: filter 500ms linear;
 }
 
-*{
-	margin:0;
-	padding:0;
+html, body {
+	height: 100%;
+	margin: 0; padding: 0;
 }
-
-body, html{
-	height:100%;
+body {
+	display : table;
+	width: 100%;
 }
-
-body{
-	text-align:center;
-}
-
-footer{
-	position:absolute;
-	bottom:0;
-	width:100%;
+footer {
+	display : table-row;
+	height: 100px; /* à titre d'exemple */
 }
 /*************************************************
 Formulaire contact
