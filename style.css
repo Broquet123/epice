@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Pirata+One|Rubik:900');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:900i&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
 /***********************************************
 En-tête
 **********************************************/
@@ -99,7 +103,6 @@ Formulaire contact
   background-position: top;
   
 }
-@import url('https://fonts.googleapis.com/css?family=Pirata+One|Rubik:900');
 
 :root {
   --shadow-color: #FF9E9E;
@@ -208,7 +211,7 @@ textarea {
 /************************************
 html
 ****************************************/
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+
 html {
   font-family:'Roboto Slab', serif;
 }
@@ -216,75 +219,29 @@ html {
 /************************************
 Product
 ****************************************/
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,900&display=swap');
+
+.TitreProductPage{
+  font-family: 'Montserrat', sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size:120px;
+	letter-spacing:0.1em;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: white;
+  text-shadow: 
+						8px 8px #ff1f8f,
+						20px 20px #000000;
+}
+
 .product {
   background-image: url(fondContact.jpg);
   background-size: auto 100vh;
   background-position: top;
   
 }
-
-.productTitle {
-  font-family: 'Poppins', sans-serif;
-  transform: translate(-50%, -50%);
-  display: block;
-  color: #cf1b1b;
-  font-size: 124px;
-  letter-spacing: 8px;
-  cursor: pointer;
-  margin: 3% auto;
-}
-
-.productTitle::before {
-  content: "Produits";
-  position: absolute;
-  color: transparent;
-  background-image: repeating-linear-gradient(
-    45deg,
-    transparent 0,
-    transparent 2px,
-    white 2px,
-    white 4px
-  );
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -ms-background-clip: text;
-  -o-background-clip: text;
-  top: 0px;
-  left: 0;
-  z-index: -1;
-  transition: 1s;
-}
-
-.productTitle::after {
-  content: "Produits";
-  position: absolute;
-  color: transparent;
-  background-image: repeating-linear-gradient(
-    135deg,
-    transparent 0,
-    transparent 2px,
-    white 2px,
-    white 4px
-  );
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -ms-background-clip: text;
-  -o-background-clip: text;
-  top: 0px;
-  left: 0px;
-  transition: 1s;
-}
-
-.productTitle:hover:before {
-  top: 10px;
-  left: 10px;
-}
-
-.productTitle:hover:after {
-  top: -10px;
-  left: -10px;
-} 
 
 .produit {
   font-family: 'Source Sans Pro', sans-serif;
@@ -404,15 +361,12 @@ Product
  margin-bottom:10px;
  display: inline-block;
 }
- .product {
-   background:#f2f2f2;
- }
+
 
  /************************************
 index
 ****************************************/
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
 .index {
   background-image: url(spicemenu.jpg);
   background-size: auto 100vh;
