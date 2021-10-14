@@ -113,8 +113,9 @@ Formulaire contact
 }
 
 .logo-1 {
-  margin: 3% 0px;
-  font-size: 65px;
+  margin: 2% 0.5%;
+  font-size: 400%;
+  max-width: 100%;
   text-transform: uppercase;
   font-family: "Archivo Black", "Archivo", sans-serif;
   font-weight: normal;
