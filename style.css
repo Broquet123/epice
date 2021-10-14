@@ -223,7 +223,9 @@ Product
   font-family: 'Montserrat', sans-serif;
   transform: translate(-50%, -50%);
   width: 10%;
-  margin: 5% 45%;
+  margin-top: 5%;
+  margin-left: 45%;
+  margin-right: 45%;
   font-size: 120px;
   letter-spacing: 0.1em;
   -webkit-text-fill-color: transparent;
@@ -454,3 +456,43 @@ svg {
 /*****************************************************
 A propos
 *****************************************************/
+.propos{
+  background-image: url(fondContact.jpg);
+  background-size: auto 100vh;
+  background-position: top;
+}
+
+.propos h1 {
+	align-items: center;
+	justify-content: center;
+	font-family: 'Bungee Shade', cursive;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	align-content: center;
+	text-align: center;
+	font-weight: normal;
+	width: 100%;
+	text-align: center;
+	
+	font-size: 16vw;
+	background: linear-gradient(
+		-45deg, 
+		#4bc0c8 25%, 
+		#feac5e 25%, 
+		#feac5e 50%, 
+		#4bc0c8 50%, 
+		#4bc0c8 75%, 
+		#feac5e 75%, 
+		#feac5e);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-size: $size $size;
+	animation: stripes 1s linear infinite;
+}	
+
+@keyframes stripes {
+	100% { 
+		background-position: $size 0, $size 0, $size 0;
+	}
+}
