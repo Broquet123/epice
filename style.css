@@ -223,7 +223,8 @@ Product
 .TitreProductPage{
   font-family: 'Montserrat', sans-serif;
   transform: translate(-50%, -50%);
-  text-align: center;
+  width: 10%;
+  margin: 5% 45%;
   font-size:120px;
 	letter-spacing:0.1em;
   -webkit-text-fill-color: transparent;
