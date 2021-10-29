@@ -22,7 +22,7 @@
         <p class="logo-1">
             Contactez-nous
           </p>
-        <form id = "form-rect"method=POST>
+        <form id="form-rect" action="mailto:someone@example.com" method="post" enctype="text/plain">
             <ul> 
             
                 <li> <label for="prenom">Prénom</label>
@@ -41,25 +41,6 @@
                 
                 </ul> 
          </form> 
-
-         <?php
-            if(isset($_POST['message'])){
-                $entete  = 'MIME-Version: 1.0' . "\r\n";
-                $entete .= 'Content-type: text/html; charset=utf-8' . "\r\n";
-                $entete .= 'From: ' . $_POST['email'] . "\r\n";
-     
-                $message = '<h1>Message envoyé depuis la page Contact de epices.netlify.app</h1>
-                 <p><b>Nom : </b>' . $_POST['nom'] . '<br>
-                <b>Prenom : </b>' . $_POST['prenom'] . '<br>
-                <b>Email : </b>' . $_POST['email'] . '<br>
-                <b>Message : </b>' . $_POST['message'] . '</p>';
-     
-                $retour = mail('niels.broquet@icloud.com', 'Envoi depuis page Contact', $message, $entete);
-                if($retour) {
-                     echo '<p>Votre message a bien été envoyé.</p>';
-             }
-         }
-         ?>
     </main>
     <footer>
     <nav>
